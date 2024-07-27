@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
 group :development do
-  gem 'rake', '~> 12.3'
-  gem 'jekyll', '~> 0.12'
+  gem 'rake', '~> 12.3', '>= 12.3.3'
+  gem 'jekyll', '~> 3.6', '>= 3.6.3'
   gem 'rdiscount', '~> 2.0.7'
-  gem 'pygments.rb', '~> 0.3.4'
-  gem 'RedCloth', '~> 4.3.0'
+  gem 'pygments.rb', '~> 1.0.0'
+  gem 'RedCloth', '~> 4.3.3'
   gem 'haml', '~> 5.1.1'
   gem 'compass', '~> 0.12.2'
   gem 'sass', '~> 3.2'
@@ -17,4 +17,4 @@ group :development do
   gem 'directory_watcher', '1.4.1'
 end
 
-gem 'sinatra', '~> 1.4.2'
+gem 'sinatra', '~> 4.0.0'
